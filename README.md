@@ -36,7 +36,15 @@ Follow these steps to decrypt the flag using the provided Python script and pass
    ```bash
    >python ende.py -d flag.txt.en ac9bd0ffac9bd0ffac9bd0ffac9bd0ff > decrypted_output.txt
 
- Replace 'flag.txt.en' and 'ac9bd0ffac9bd0ffac9bd0ffac9bd0ff' with the actual file names and password.
+**Command-Line Arguments**
+
+1:-e : Encrypt the specified file.
+
+2:-d : Decrypt the specified file.
+
+3:file : The path to the file to be encrypted or decrypted.
+
+4:password : The password used to generate the encryption/decryption key.
 
 
 
@@ -48,7 +56,7 @@ Open the decrypted_output.txt file to view the decrypted flag.
 
 **Notes:**
 
-1.Ensure Python is installed and accessible from the command line (python command).
+1.Ensure Python and libraries is installed and accessible from the command line (python command).
 
 2.Replace placeholders ('/path/to/directory', file names, password) with your actual values as per your setup.
 
